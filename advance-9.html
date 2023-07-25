@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" class="w-full h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-full h-full m-0 p-0 box-border ">
+    <div class="bg-black">
+    <nav >
+        <div class="nav max-md:hidden flex bg-black  content-center justify-between flex-wrap">
+            <div class="name-logo flex items-center  ">
+            <img   class="h-20 w-20"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS_Ve0c8Gnvk0lG2aUCKpLmeSemirbZnYcDfv1DuJs&s" alt="">
+            <h1 class="text-white text-3xl font-bold">LIQUID</h1>
+            </div>
+            <div class="button-profile flex items-center mr-10">
+            <button class="bg-orange-500  h-12 w-36 text-white rounded-xl mr-4 ">CREATE ACCOUNT</button>
+            
+            
+            <img class="h-14 w-14" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="">
+        </div>
+        
+        
+        </div>
+    </nav>
+
+
+    <!-- mobile -->
+    <nav id = nav-mobile>
+        <div class=" md:hidden nav  flex content-center justify-between flex-wrap">
+            <div class="name-logo flex items-center  ">
+            <img   class="h-20 w-20"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS_Ve0c8Gnvk0lG2aUCKpLmeSemirbZnYcDfv1DuJs&s" alt="">
+            <h1 class="text-white text-3xl font-bold">LIQUID</h1>
+            </div>
+            <img class="h-12 w-12 mt-3" src="https://w7.pngwing.com/pngs/626/110/png-transparent-black-logo-computer-icons-hamburger-button-menu-new-menu-angle-text-rectangle.png" alt="">
+        
+        
+        </div>
+    </nav>
+    <main class="flex  max-md:hidden justify-around  items-center pl-16 pr-16 gap-x-8">
+        <div class="main bg-black">
+            <h1 class=" text-white text-6xl mb-12 font-extrabold">Multi Regulated <br> globale broker.</h1>
+            <p class="text-white font-normal mb-12 text-gray-300 text-base">a trusted destination for traderrs worldwide <br> authorised  by FCA FSIT </p>
+             <button  class = "bg-black h-12 w-52 animate-bounce text-white border-2 border-solid rounded-xl border-red-900">
+                DISCOVER ACCOUNT
+             </button>
+             
+        </div>
+        <div class="image md:flex">
+            <img src="https://www.indonez.com/html-demo/liquid/img/in-liquid-slide-2.svg" alt="Hero Image" class="w-[100%]">
+        </div>
+    </main>
+    <main class="grid grid-row-1 justify-around md:hidden items-center pl-16 pr-16 gap-x-8">
+        <div class="main bg-black">
+            <h1 class=" text-white text-6xl mb-12 font-extrabold">Multi Regulated <br> globale broker.</h1>
+            <p class="text-white font-normal mb-12 text-gray-300 text-base">a trusted destination for traderrs worldwide <br> authorised  by FCA FSIT </p>
+             <button  class = "bg-black h-12 w-full text-white border-2 border-solid rounded-xl border-red-900">
+                DISCOVER ACCOUNT
+             </button>
+             
+        </div>
+        <div class="image md:flex">
+            <img src="https://www.indonez.com/html-demo/liquid/img/in-liquid-slide-2.svg" alt="Hero Image" class="w-[100%]">
+        </div>
+    </main>
+    <section>
+        <div class=" flex  max-md:hidden justify-evenly c-name mt-32">
+            
+            <div class="flex  justify-center justify-items-center text-center text-xl font-bold trading">
+               
+                <img  class = "w-28  mr-4 h-10" src="data:image/png;base64,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" alt="">
+                <div class="price mr-4 rounded-xl h-10 w-28  bg-red-300 text-center">
+                    <p class="text-center">^1,740.5</p>
+                    
+                </div>
+            </div>
+            <div class="flex   justify-center justify-items-center  text-xl font-bold  text-center  trading">
+               
+                <img class = "w-28  mr-4 h-10" src="https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" alt="">
+                <div class="price mr-4 rounded-xl h-10 w-28 gap-x-4 bg-green-300">
+                    <p class="text-center">^1,740.5</p>
+                    
+                </div>
+            </div>
+            <div class="flex  justify-center justify-items-center  text-xl font-bold  text-center ">
+               
+                <img class = "w-28 mr-4 h-10" src="https://cdn.neowin.com/news/images/uploaded/2021/02/1613324539_facebook-logo.jpg" alt="">
+                <div class="price  mr-4 rounded-xl h-10 w-28 gap-x-4 bg-red-300">
+                    <p>^1,740.5</p>
+                    
+                </div>
+            </div>
+            <div class="flex justify-center justify-items-center   text-xl font-bold text-center trading">
+               
+                <img class = "w-28 mr-4 h-10 " src="https://static.vecteezy.com/system/resources/previews/019/040/342/non_2x/amazon-logo-editorial-free-vector.jpg" alt="">
+                <div class="price  mr-4 h-10 rounded-xl  w-28 gap-x-4 bg-green-300">
+                    <p>^1,740.5</p>
+                    
+                </div>
+            </div>
+            <div class="flex  justify-center justify-items-center  text-xl font-bold text-center  trading">
+               
+                <img class = "w-28 mr-4 h-10  " src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAwCAMAAABjR8XYAAAAgVBMVEX////tHCTzbHH3lJjvOkHvNz7819j6vL/1h4v95OXwREv70tP+8vL5s7bxSVD7ysvtISn83N7uKzP+7e7/+vrzZGruJCz0dXrxTlT1gIT96ur83+DyWV/5r7L+8PD2j5P3n6LuLzb6wcP3nKD0eHzyXWP5sLP6v8H1hIj4p6r0b3RADIZBAAAF90lEQVRoge2ZW5eiMAyAAcEbKBcpIqJy0dnR//8Dt01vabl4dp/GcyYPszNt0/ZL0yR0HQfLzmXydExJMyo35514THfzdpgpHZu7/0el90IApLRal6xx/Vb5v0BWTGnxj0pvpUoAxD2bzZ8H0nMOe9OfB7IVIIHZ/ENBAqq5He0J2aTgXZ3R/nEgJzbphf14Ge2fBpJntMd3SvqziHDHp4Hs+H6bQSr5NJAHj7zXxE4lHwZSSQBip5JxkCo9Gw6IQfJzWo2tnVfpJjdaMEgVhqNaVA7pcMIpkAWbsnGUi42BpDsqbCcrwi6Uu12jE5AgUb9nNsnIH3OB87qEkOi/UFBUIJ0HM7aveEC/Iy3ryupGWm7D9sEagx2IMZ4lkeTgiEuPU4kGAdjICWXCoRondSwAUjlfreqskRUPL1fLVqGs+I0817qzNguLztddbc/P8+KagsdDEiHw6539iqxmg1wSPImfYpB8jfsCdWDLwFxa1qAAsosz3Fes0L6+Tb2yegcCu+dnFLNfvUmQXWLO0p41SNFY64opzq21tLwXANJnZl+iSY62nn+YBwF/ysRFZIeJUokFUrCR91Wadmu+PT/SJ0Ihi/sqDC8exxVxvOQDF/F5uRM9sQZhMybeV5jGC+5HxVIsze2SneiMqzU/1HoeBG74UfwB7tFMgVDxDrwngmJA6Hm8bytcLYR1t3p29ybslG71Ya3EjKXQynvA3PKhS4boErFafsO2mYhaD20k6gh6oVGQk9bjJgs1iL4W4KE8jufPvb4W9OL7SkmAPHRQ7gptxhqbl8oTVshnQDbMDjpSgSfISzwAqXEqgDN5aRB0UQm2X3xHWh0ckAYJcEaC3frstxAdDhcPLTEKslB7BWmMP22QJdaMWldcKFhkb+9ovCJgR/LQIF9G5156BxjJyEYpOPYMiG8cgXNI0BHaILWp+i2NBCD483tpOUYePxfrddNd+WHtFUhrZvsvuZ7vDr6NUNMYSGwbk2BbWCD9iO5aguC8fEDmo+5EVNguGyK9Z2XBMoFqj5qrYn3Z3hC4QNdJEEgi9UILwXuwQKwaImdtRILgrByhSTbEtSVQII21nS3vDQcqQsIpkDwbHV9cR0HsApcpl85I9YtA0mA4vQZZWTOyYFU4zp8pkHgKxM4vUppRELsMDd6DHARHeeqf/YnXjjMgLBck4q6MSTcFUk8olKMgqansMLet50F4ofGQmtWtMEAu1oxsP5k4ke9wKNEEyIYpJL4pcKuWYyCW/UD7OAsSJXKMlKMBYr9iti6EHlj325mSIcjCXkY1fo+BnMyBkC36WRCoUAIcY0sDxAroMmzng2/VNyC+9jstUKbwAG+BBGbUr+XRTYMM+HUhASCJGT8gM+0Erv3sOQMCiSAYjCuVG9mZvRloQ0qYBoFiD3+Yv1wDxL3jGSsohtk9gJdP42kqr/srBjG2fVT7NATKFDIGUqDrfvUV2jRIo249Fx4lEQiuQ/Jabf9a2HeSbqA4iuVZJZMg7+BJxKifuGHY8cO376D6DRTJZqudbRqEP2GGsv1ph1+6O0WSQ+ZMuEPB90ShKzGuKSYilneAeXB5IuUhBw6/R4obHHDet6622Uz4hWPLnsAbPsQkGIR6F2jmO/5lJeJYzh8HPG7mlNfX8mjhnIt+cwg5GZzk2H+1KEILBC5PUh5fdcH3INxyBkRk3OxxJLDR1opa0Lslxwc3jEukx6Si5vDJnYgXD19ekkjVIxD1eBIZe0+KZCqxE+LeNUSGo7kSxTM0ks4zQGKrEEMfPGFrdrmBjmL6fYC5+k0hDcQT27RBrg80cdEYwydAcvyIkHWOBZKfDMvg+L4xy476gPoWsp5mtqxZGjdfuKR0rIsmpJT9u1AgtGTbldK2L73zExuGjzZiDfK8Vlql4mNLtQb18VgV+bX9Qqc0qVdbGw098JqEjO5/RnQZn/ZHQk6XwzsNJGlzpyrPqVfR6km7j83Y4/HmeSI1uT/tKo9Kvoy78DpsfyNj3yMfKb8gP01+QX6a/IL8NPkF+Wnyg0H+AhGjU5eDYFPlAAAAAElFTkSuQmCC" alt="">
+                <div class="price bg-red-300 mr-4 h-10 rounded-xl text-center w-28 gap-x-4 ">
+                    <p>^1,740.5</p>
+                    
+                </div>
+            </div>
+           
+        </div>
+
+
+
+
+
+
+<!-- mobilres -->
+
+
+
+        <div class=" flex flex-col md:hidden  justify-evenly c-name mt-32">
+            
+            <div class="flex  justify-center justify-items-center text-center text-xl font-bold trading">
+               
+                <img  class = "w-28 mr-4 mb-4 h-10" src="data:image/png;base64,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" alt="">
+                <div class="price mb-4 rounded-xl h-10 w-28  bg-red-300 text-center">
+                    <p class="text-center">^1,740.5</p>
+                    
+                </div>
+            </div>
+            <div class=" flex  justify-center justify-items-center  text-xl font-bold  text-center  trading">
+               
+                <img class = "w-28 mr-4 mb-4 h-10" src="https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" alt="">
+                <div class="price mb-4 rounded-xl h-10 w-28 gap-x-4 bg-green-300">
+                    <p class="text-center">^1,740.5</p>
+                    
+                </div>
+            </div>
+            <div class="flex  justify-center justify-items-center  text-xl font-bold  text-center ">
+               
+                <img class = "w-28 mr-4 mb-4 h-10" src="https://cdn.neowin.com/news/images/uploaded/2021/02/1613324539_facebook-logo.jpg" alt="">
+                <div class="price  mb-4 rounded-xl h-10 w-28 gap-x-4 bg-red-300">
+                    <p>^1,740.5</p>
+                    
+                </div>
+            </div>
+            <div class="flex justify-center justify-items-center   text-xl font-bold text-center trading">
+               
+                <img class = "w-28 mr-4 mb-4 h-10 " src="https://static.vecteezy.com/system/resources/previews/019/040/342/non_2x/amazon-logo-editorial-free-vector.jpg" alt="">
+                <div class="price  mb-4 h-10 rounded-xl  w-28 gap-x-4 bg-green-300">
+                    <p>^1,740.5</p>
+                    
+                </div>
+            </div>
+            <div class="flex  justify-center   text-xl font-bold text-center  trading">
+               
+                <img class = "w-28   mr-4 mb-4 h-10  " src="data:image/png;base64,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" alt="">
+                <div class="price bg-red-300 mb-4 h-10 rounded-xl text-center w-28 gap-x-4 ">
+                    <p>^1,740.5</p>
+                    
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <section>
+        <div class="ex    text-white">
+            <div class="ex-1 flex justify-between ml-4 mr-4 mt-10 ">
+                <h1 class="text-3xl">save time get  <strong class="text-red-600">higher return.</strong> <br> Multiple wealth.</h1>
+                <button class="border-2 rounded-xl border-red-500 h-12 w-26">
+                    FIND OUT MORE >
+                </button>
+            </div>
+        </div>
+        <div class="text-white md:p-5 md:grid grid-cols-3 gap-10">
+            <div class="card bg-[#212224] pb-[450px] relative overflow-hidden rounded-lg my-3">
+              <img src="https://www.indonez.com/html-demo/liquid/img/in-liquid-object-1.svg" alt="Sample Image 01" class="absolute right-0 top-0 -mt-16 -mr-16 w-[100%]">
+  
+              <div class="p-5 absolute bottom-0 px-10">
+                <h1 class="text-2xl md:text-4xl my-5 font-semibold">
+                  Various assets
+                </h1>
+                <p class="md:text-xl text-gray-400">
+                  Duis aute irure dolor in reprehen derit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur.
+                </p>
+              </div>
+            </div>
+  
+            <div class="card bg-[#212224] pb-[450px] relative overflow-hidden rounded-lg my-3">
+              <img src="https://www.indonez.com/html-demo/liquid/img/in-liquid-object-2.svg" alt="Sample Image 01" class="absolute right-0 top-0 -mt-16 -mr-16 w-[100%]">
+  
+              <div class="p-5 absolute bottom-0 px-10">
+                <h1 class="text-2xl md:text-4xl my-5 font-semibold">
+                  Market analysis
+                </h1>
+                <p class="md:text-xl text-gray-400">
+                  Duis aute irure dolor in reprehen derit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur.
+                </p>
+              </div>
+            </div>
+  
+            <div class="card bg-[#212224] pb-[450px] relative overflow-hidden rounded-lg my-3">
+              <img src="https://www.indonez.com/html-demo/liquid/img/in-liquid-object-3.svg" alt="Sample Image 01" class="absolute right-0 top-0 -mt-16 -mr-16 w-[100%]">
+  
+              <div class="p-5 absolute bottom-0 px-10">
+                <h1 class="text-2xl md:text-4xl my-5 font-semibold">
+                  Enhanced tools
+                </h1>
+                <p class="md:text-xl text-gray-400">
+                  Duis aute irure dolor in reprehen derit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur.
+                </p>
+              </div>
+            </div>
+          </div>
+    </section>
+</div>
+    <section class="md:p-10 p-3 md:grid-rows-2 grid-cols-2 gap-16">
+        <div class="controls md:p-10 p-3 md:grid grid-cols-2 grid-rows-2 gap-16">
+            <div class="menu-1 flex gap-5 my-5">
+                <img src="https://www.indonez.com/html-demo/liquid/img/in-liquid-icon-1.svg" alt="Section Logo" class="w-20 h-20">
+                <div class="des-1">
+                    <h1 class="text-3xl font-bold">Expert service</h1>
+                    <p class="text-xxs md:text-xl py-3">Quis autem vel eum iure reprehenderit qui in voluptate velit esse quam nihil molestiae consequatur.</p>
+                    <button>Learn more...</button>
+                </div>
+    
+            </div>
+            
+            <div class="menu-1 flex gap-5 my-5">
+                <img src="https://www.indonez.com/html-demo/liquid/img/in-liquid-icon-1.svg" alt="Section Logo" class="w-20 h-20">
+                <div class="des-1">
+                    <h1 class="text-3xl font-bold">Fully regulated</h1>
+                    <p class="text-xxs md:text-xl py-3">Quis autem vel eum iure reprehenderit qui in voluptate velit esse quam nihil molestiae consequatur.</p>
+                    <button>Learn more...</button>
+                </div>
+    
+            </div>
+            <div class="menu-1 flex gap-5 my-5">
+                <img src="https://www.indonez.com/html-demo/liquid/img/in-liquid-icon-1.svg" alt="Section Logo" class="w-20 h-20">
+                <div class="des-1">
+                    <h1 class="text-3xl font-bold">Financial strength</h1>
+                    <p class="text-xxs md:text-xl py-3">Quis autem vel eum iure reprehenderit qui in voluptate velit esse quam nihil molestiae consequatur.</p>
+                    <button>Learn more...</button>
+                </div>
+    
+            </div>
+            <div class="menu-1 flex gap-5 my-5">
+                <img src="https://www.indonez.com/html-demo/liquid/img/in-liquid-icon-1.svg" alt="Section Logo" class="w-20 h-20">
+                <div class="des-1">
+                    <h1 class="text-3xl font-bold">Integrated support</h1>
+                    <p class="text-xxs md:text-xl py-3">Quis autem vel eum iure reprehenderit qui in voluptate velit esse quam nihil molestiae consequatur.</p>
+                    <button>Learn more...</button>
+                </div>
+    
+            </div>
+           
+        </div>
+    </section>
+    <section  class="mb-20 mt-20 mx-2 md:mx-32 border-2 animate-pulse text-center border-red-900 rounded-lg">
+        <h1 class="text-2xl text-center font-bold inline relative -top-5 bg-white px-5 text-[#FC5B3F]">
+            Simple steps to start trade.
+          </h1>
+
+          <div class="step md:flex justify-center items-center">
+          <div class="steps  m-10 flex justify-center flex-col justify-center items-center">
+            <div class="s-1 border-2 rounded-full border-red-900 h-12 w-12 text-center flex justify-center items-center">
+                <p class="text-xl font-bold">1</p>
+            </div>
+            <p class="text-xl font-bold">Register account</p>
+          </div>
+          <div class="steps m-10   flex justify-center flex-col justify-center items-center">
+            <div class="s-1 border-2 rounded-full border-red-900 h-12 w-12 text-center flex justify-center items-center">
+                <p class="text-xl font-bold">2</p>
+            </div>
+            <p class="text-xl font-bold">Fund your account</p>
+          </div>
+          <div class="steps m-10 flex justify-center flex-col justify-center items-center">
+            <div class="s-1 border-2 rounded-full border-red-900 h-12 w-12 text-center flex justify-center items-center">
+                <p class="text-xl font-bold">3</p>
+            </div>
+            <p class="text-xl font-bold font-red-200">Start your trade</p>
+          </div>
+        </div>
+          
+        
+    </section>
+    <div class="h text-3xl font-bold mt-12 ml-5 ">
+        <h1>Stay ahead of the curve.</h1>
+    </div>
+    <section class="grid md:grid-cols-3 mb-10 mt-20 ml-12 gap-5">
+        <div class="border-l-2 border-[#FC5B3F] px-10 relative">
+          <h1 class="absolute -left-12 text-xl rotate-90 font-semibold bg-white px-5 text-[#FC5B3F]">
+            NEWS
+          </h1>
+          <h1 class="text-3xl font-semibold mb-5">
+            Wall Street cautious on 'frothy' stocks, warn bitcoin bubble
+          </h1>
+          <p class="text-xl">
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+            ...
+          </p>
+          <p class="my-5 text-xl font-bold">Read More -&gt;</p>
+        </div>
+        <div class="border-l-2 border-[#FC5B3F] px-10 relative">
+          <h1 class="absolute -left-12 text-xl rotate-90 font-semibold bg-white px-5 text-[#FC5B3F]">
+            NEWS
+          </h1>
+          <h1 class="text-3xl font-semibold mb-5">
+            Will AUD/USD Hit 0.8000 In The Foreseeable Future?
+          </h1>
+          <p class="text-xl">
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+            ...
+          </p>
+          <p class="my-5 text-xl font-bold">Read More -&gt;</p>
+        </div>
+        <div class="border-l-2 border-[#FC5B3F] px-10 relative">
+          <h1 class="absolute -left-12 text-xl rotate-90 font-semibold bg-white px-5 text-[#FC5B3F]">
+            NEWS
+          </h1>
+          <h1 class="text-3xl font-semibold mb-5">
+            How Can You Use Volatility to Your Advantage
+          </h1>
+          <p class="text-xl">
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+            ...
+          </p>
+          <p class="my-5 text-xl font-bold">Read More -&gt;</p>
+        </div>
+      </section>
+      <footer class="md:flex justify-center bg-black">
+    
+
+        <img   class="h-20 w-20 mr-96"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS_Ve0c8Gnvk0lG2aUCKpLmeSemirbZnYcDfv1DuJs&s" alt="">
+        
+        <div class="fff md:flex justify-center ml-96">
+        
+            <div class="f-1 mr-3">
+                <h1 class="text-white text-xl mb-5 ">MARKETS</h1>
+                <ul class="leading-10 text-gray-100">
+                    <li ><a href="#" class="no-underline "> <p  class="text-red-500" >Web Plateform</p></a></li>
+                    <li> <a href="#"  class="no-underline "> <p  class="text-red-500" >Trading Apps</p></a></li>
+                    <li> <a href="#"  class="no-underline "> <p  class="text-red-500" >Meta Trader 5</p></a></li>
+                    <li> <a href="#" class="no-underline "> <p  class="text-red-500" >Compare Fetures</p></a></li>
+                </ul>
+            </div>
+            <div class="f-1 mr-3">
+                <h1 class="text-white text-xl mb-5 ">ACCOUNT TYPE</h1>
+                <ul class="leading-10 ">
+                    <li><a href="#" class="no-underline   "><p class="text-red-500">demo account</p></a></li>
+                    <li> <a href="#"  class="no-underline  "> <p class="text-red-500">standard account</p></a></li>
+                    <li> <a href="#"  class="no-underline "> <p class="text-red-500">ECN account</p></a></li>
+                    <li> <a href="#" class="no-underline "> <p class="text-red-500">hindu account</p></a></li>
+                </ul>
+            </div>
+            <div class="f-1 mr-3">
+                <h1 class="text-white text-xl mb-5 ">LEARN TO TRADE</h1>
+                <ul class="leading-10 text-gray-100">
+                    <li><a href="#" class="no-underline "> <p  class="text-red-500" >news and trade ideas</p></a></li>
+                    <li> <a href="#"  class="no-underline "> <p  class="text-red-500" >Trading stratagy</p></a></li>
+                    <li> <a href="#"  class="no-underline "> <p  class="text-red-500" >Meta Trader 5</p></a></li>
+                   
+                </ul>
+            </div>
+        
+        </div>
+        </footer>
+   
+    
+
+
+
+    
+</body>
+</html>
